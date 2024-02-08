@@ -32,7 +32,7 @@ class TodoListApp:
             self.task_listbox.insert(tk.END, f"{len(self.tasks)}. {task_text}")
             self.task_entry.delete(0, tk.END)
         else:
-            messagebox.showwarning("Input Error", "Please enter a task.")
+            messagebox.showwarning("Input Error", "Please enter a task again.")
 
     def delete_task(self):
         selected_index = self.task_listbox.curselection()
