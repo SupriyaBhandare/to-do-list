@@ -1,5 +1,9 @@
 # This is To do list (Python)
+<<<<<<< HEAD
 # This is a new feature (feature 2)
+=======
+# This is a new feature (feature 1)
+>>>>>>> main
 import tkinter as tk
 from tkinter import messagebox
 
